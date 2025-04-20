@@ -88,6 +88,7 @@
 <!-- Cards Section -->
 <div class="container cards-row">
 
+    
   <!-- First Row -->
   <div class="card-row">
     <!-- Latte Card -->
@@ -96,12 +97,29 @@
       <div class="image-slider">
         <div class="slider-wrapper">
           <div class="main-badge"><span class="badge">Latte</span></div>
-          <div class="image-container">
-            <img src="images/latte/1.jpg.jpeg" alt="Latte">
-            <img src="images/latte/2.webp" alt="">
-            <img src="images/latte/3.webp" alt="">
-            <img src="images/latte/4.jpg" alt="">
-          </div>
+          <button class="arrow-btn left" onclick="scrollImages(-1)">
+                            <i class="fa-solid fa-chevron-left"></i>
+                        </button>
+                            <div class="image-container" class="imageSlider" id="imageSlider1">
+                                               <img src="images/latte/1.jpg.jpeg" alt="Latte">
+                                                <img src="images/latte/2.webp" alt="">
+                                                <img src="images/latte/3.webp" alt="">
+                                                <img src="images/latte/4.jpg" alt="">
+                            </div>
+                        <button class="arrow-btn right" onclick="scrollImages(1)">
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </button>
+                        <script>
+                            function scrollImages(direction)
+                            {
+                                const container = document.getElementById('imageSlider1');
+                                const scrollAmount = 500; // Adjust based on image width + gap
+                                container.scrollBy({
+                                left: direction * scrollAmount,
+                                behavior: 'smooth'
+                                });
+                            }
+                        </script>
         </div>
       </div>
       <div class="card-content">
@@ -126,18 +144,37 @@
       </div>
     </div>
 
+    
+
     <!-- Cappuccino Card -->
     <div class="listing-card">
       <!-- Card Content -->
       <div class="image-slider">
         <div class="slider-wrapper">
           <div class="main-badge"><span class="badge">Cappuccino</span></div>
-          <div class="image-container">
-            <img src="images/capp/1.jpg" alt="Cappuccino">
-            <img src="images/capp/2.jpg" alt="Cappuccino">
-            <img src="images/capp/3.jpg" alt="Cappuccino">
-            <img src="images/capp/4.jpg" alt="Cappuccino">
-          </div>
+         <button class="arrow-btn left" onclick="scrollImages(-1)">
+                            <i class="fa-solid fa-chevron-left"></i>
+                        </button>
+                            <div class="image-container" class="imageSlider" id="imageSlider1">
+                                        <img src="images/capp/1.jpg" alt="Cappuccino">
+                                        <img src="images/capp/2.jpg" alt="Cappuccino">
+                                        <img src="images/capp/3.jpg" alt="Cappuccino">
+                                        <img src="images/capp/4.jpg" alt="Cappuccino">
+                            </div>
+                        <button class="arrow-btn right" onclick="scrollImages(1)">
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </button>
+                        <script>
+                            function scrollImages(direction)
+                            {
+                                const container = document.getElementById('imageSlider1');
+                                const scrollAmount = 500; // Adjust based on image width + gap
+                                container.scrollBy({
+                                left: direction * scrollAmount,
+                                behavior: 'smooth'
+                                });
+                            }
+                        </script>
         </div>
       </div>
       <div class="card-content">
@@ -163,6 +200,9 @@
     </div>
   </div>
 
+  
+
+
   <!-- Second Row -->
   <div class="card-row">
     <!-- Americano Card -->
@@ -171,12 +211,29 @@
       <div class="image-slider">
         <div class="slider-wrapper">
           <div class="main-badge"><span class="badge">Americano</span></div>
-          <div class="image-container">
-            <img src="images/ameri/3.webp" alt="">
-            <img src="images/ameri/4.webp" alt="">
-            <img src="images/ameri/1.jpeg" alt="">
-           <img src="images/ameri/2.webp" alt="">
-          </div>
+         <button class="arrow-btn left" onclick="scrollImages(-1)">
+                            <i class="fa-solid fa-chevron-left"></i>
+                        </button>
+                            <div class="image-container" class="imageSlider" id="imageSlider2">
+                                      <img src="images/ameri/3.webp" alt="">
+                                        <img src="images/ameri/4.webp" alt="">
+                                        <img src="images/ameri/1.jpeg" alt="">
+                                    <img src="images/ameri/2.webp" alt="">
+                            </div>
+                        <button class="arrow-btn right" onclick="scrollImages(1)">
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </button>
+                        <script>
+                            function scrollImages(direction)
+                            {
+                                const container = document.getElementById ('imageSlider2');
+                                const scrollAmount = 500; // Adjust based on image width + gap
+                                container.scrollBy({
+                                left: direction * scrollAmount,
+                                behavior: 'smooth'
+                                });
+                            }
+                        </script>
         </div>
       </div>
       <div class="card-content">
@@ -207,12 +264,29 @@
       <div class="image-slider">
         <div class="slider-wrapper">
           <div class="main-badge"><span class="badge">Espresso</span></div>
-          <div class="image-container">
-            <img src="images/espro/1.webp" alt="">
-            <img src="images/espro/2.jpg" alt="">
-            <img src="images/espro/3.jpeg" alt="">
-            <img src="images/espro/4.jpeg" alt="">
-          </div>
+          <button class="arrow-btn left" onclick="scrollImages(-1)">
+                            <i class="fa-solid fa-chevron-left"></i>
+                        </button>
+                            <div class="image-container" class="imageSlider" id="imageSlider1">
+                                    <img src="images/espro/1.webp" alt="">
+                                    <img src="images/espro/2.jpg" alt="">
+                                    <img src="images/espro/3.jpeg" alt="">
+                                    <img src="images/espro/4.jpeg" alt="">
+                            </div>
+                        <button class="arrow-btn right" onclick="scrollImages(1)">
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </button>
+                        <script>
+                            function scrollImages(direction)
+                            {
+                                const container = document.getElementById('imageSlider1');
+                                const scrollAmount = 500; // Adjust based on image width + gap
+                                container.scrollBy({
+                                left: direction * scrollAmount,
+                                behavior: 'smooth'
+                                });
+                            }
+                        </script>
         </div>
       </div>
       <div class="card-content">

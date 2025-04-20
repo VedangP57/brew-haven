@@ -370,7 +370,7 @@ ul {
     border: none;
     cursor: pointer;
     font-weight: 600;
-    font-family: 'reg', sans-sarifs;
+        font-family: "Figtree", sans-serif;
 }
 
 .btn.view,
