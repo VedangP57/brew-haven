@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brew~Haven</title>
+    <link rel="stylesheet" href="style.css" class="stylesheet">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+       <script>
+  window.addEventListener('scroll', function () {
+    const navbar = document.querySelector('.navbar');
+    navbar.classList.toggle('sticky', window.scrollY > 50);
+  });
+</script>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <img src="images/green-logo.png" alt="">
+                Brew Haven
+            </div>
+            <div class="search-bar">
+                <div class="search-container">
+                    <i class="fas fa-search"></i>
+                    <input type="text" placeholder="Search..." />
+                </div>
+            </div>
+            <div class="main-menu">
+                <ul class="navbar1">
+                <li class="item1"><a href="#">Location
+                    <i class="fas fa-chevron-down"></i>
+                </a>
+                </li>
+                <li class="item2"><a href="#">Brew Guide
+                    <i class="fas fa-chevron-down"></i>
+                </a>
+                </li>
+                <li class="item3"><a href="#">About Us
+                    <i class="fas fa-chevron-down"></i>
+                </a>
+                </li>
+                <li>
+                    <a href="#"><i class="far fa-heart heart-icon"></i></a>
+                </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    </header>
+    <div class="box-main">
+        <div class="container">
+            <div class="box2">
+                <div class="info">
+                    <div class="box1">
+                        <div class="menu1">
+                                <ul>
+                                <li><a href="#">Coffee</a></li>
+                                <li><a href="#"><i class="fa-solid fa-greater-than"></i></a></li>
+                                <li><a href="#">Daily Essentials</a></li>
+                                </ul>
+                        </div>
+                    </div>
+                    <div class="menu2">
+                        <ul>
+                        <li class="heading1"><a href="#">Fuel your day with a perfect cup of coffee</a></li>
+                        <li class="heading2"><a href="#">Coffee isn’t just a drink — it’s a ritual, a comfort, and a spark of energy. From bold espresso to smooth lattes, every cup tells its own rich, aromatic story.</a>
+                        </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="pic">
+                    <ul>
+                        <img src="images/1.jpg" alt="">
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- Cards Section -->
+<div class="container cards-row">
+
+  <!-- First Row -->
+  <div class="card-row">
+    <!-- Latte Card -->
+    <div class="listing-card">
+      <!-- Card Content -->
+      <div class="image-slider">
+        <div class="slider-wrapper">
+          <div class="main-badge"><span class="badge">Latte</span></div>
+          <div class="image-container">
+            <img src="images/latte/1.jpg.jpeg" alt="Latte">
+            <img src="images/latte/2.webp" alt="">
+            <img src="images/latte/3.webp" alt="">
+            <img src="images/latte/4.jpg" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="card-content">
+        <h4>Creamy & Smooth</h4>
+        <h2>Classic Latte <i class="fa-solid fa-mug-hot verified"></i></h2>
+        <div class="rating">
+          <span><i class="fa-solid fa-star"></i> 4.7</span>
+          <span class="pill green">Best Seller</span>
+        </div>
+        <div class="tags">
+          <span>Steamed Milk</span><span>Espresso</span><span>Comfort Drink</span>
+        </div>
+        <p class="desc">Rich espresso with velvety steamed milk, perfect for a cozy start to your day.</p>
+        <div class="features">
+          <span><i class="fa-solid fa-seedling"></i> Organic Beans</span>
+          <span><i class="fa-solid fa-coffee"></i> Medium Roast</span>
+        </div>
+        <div class="actions">
+          <button class="btn buy">Buy Now</button>
+          <button class="btn details">More Details</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Cappuccino Card -->
+    <div class="listing-card">
+      <!-- Card Content -->
+      <div class="image-slider">
+        <div class="slider-wrapper">
+          <div class="main-badge"><span class="badge">Cappuccino</span></div>
+          <div class="image-container">
+            <img src="images/capp/1.jpg" alt="Cappuccino">
+            <img src="images/capp/2.jpg" alt="Cappuccino">
+            <img src="images/capp/3.jpg" alt="Cappuccino">
+            <img src="images/capp/4.jpg" alt="Cappuccino">
+          </div>
+        </div>
+      </div>
+      <div class="card-content">
+        <h4>Bold & Frothy</h4>
+        <h2>Classic Cappuccino <i class="fa-solid fa-mug-hot verified"></i></h2>
+        <div class="rating">
+          <span><i class="fa-solid fa-star"></i> 4.5</span>
+          <span class="pill green">Barista’s Choice</span>
+        </div>
+        <div class="tags">
+          <span>Espresso</span><span>Foamed Milk</span><span>Strong Taste</span>
+        </div>
+        <p class="desc">A harmonious blend of espresso and frothy milk for the bold-hearted coffee lover.</p>
+        <div class="features">
+          <span><i class="fa-solid fa-seedling"></i> Fair Trade</span>
+          <span><i class="fa-solid fa-fire"></i> Hot Favorite</span>
+        </div>
+        <div class="actions">
+          <button class="btn buy">Buy Now</button>
+          <button class="btn details">More Details</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Second Row -->
+  <div class="card-row">
+    <!-- Americano Card -->
+    <div class="listing-card">
+      <!-- Card Content -->
+      <div class="image-slider">
+        <div class="slider-wrapper">
+          <div class="main-badge"><span class="badge">Americano</span></div>
+          <div class="image-container">
+            <img src="images/ameri/3.webp" alt="">
+            <img src="images/ameri/4.webp" alt="">
+            <img src="images/ameri/1.jpeg" alt="">
+           <img src="images/ameri/2.webp" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="card-content">
+        <h4>Strong & Simple</h4>
+        <h2>Classic Americano <i class="fa-solid fa-mug-hot verified"></i></h2>
+        <div class="rating">
+          <span><i class="fa-solid fa-star"></i> 4.6</span>
+          <span class="pill green">No Frills</span>
+        </div>
+        <div class="tags">
+          <span>Espresso</span><span>Hot Water</span><span>Robust Flavor</span>
+        </div>
+        <p class="desc">Pure espresso diluted with hot water for a smooth, bold taste without the milk.</p>
+        <div class="features">
+          <span><i class="fa-solid fa-clock"></i> Quick Brew</span>
+          <span><i class="fa-solid fa-bolt"></i> Energy Boost</span>
+        </div>
+        <div class="actions">
+          <button class="btn buy">Buy Now</button>
+          <button class="btn details">More Details</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Espresso Card -->
+    <div class="listing-card">
+      <!-- Card Content -->
+      <div class="image-slider">
+        <div class="slider-wrapper">
+          <div class="main-badge"><span class="badge">Espresso</span></div>
+          <div class="image-container">
+            <img src="images/espro/1.webp" alt="">
+            <img src="images/espro/2.jpg" alt="">
+            <img src="images/espro/3.jpeg" alt="">
+            <img src="images/espro/4.jpeg" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="card-content">
+        <h4>Intense & Authentic</h4>
+        <h2>Classic Espresso <i class="fa-solid fa-mug-hot verified"></i></h2>
+        <div class="rating">
+          <span><i class="fa-solid fa-star"></i> 4.8</span>
+          <span class="pill green">Fan Favorite</span>
+        </div>
+        <div class="tags">
+          <span>Bold</span><span>Shot</span><span>Concentrated</span>
+        </div>
+        <p class="desc">Rich and powerful espresso shot, the foundation of every great coffee experience.</p>
+        <div class="features">
+          <span><i class="fa-solid fa-heart-pulse"></i> Wake-Up Call</span>
+          <span><i class="fa-solid fa-award"></i> Premium Beans</span>
+        </div>
+        <div class="actions">
+          <button class="btn buy">Buy Now</button>
+          <button class="btn details">More Details</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="more-section1">
+    <div class="container">
+            <section class="learn-more-section">
+            <section class="coffee-section">
+  <h2>Love Coffee?</h2>
+  <ul class="learn-list">
+    <li><a href="#"><i class="fa fa-mug-hot"></i> Why Coffee is the World's Favorite Brew <span>&#8250;</span></a></li>
+    <li><a href="#"><i class="fa fa-mug-hot"></i> Health Benefits of Your Daily Cup <span>&#8250;</span></a></li>
+    <li><a href="#"><i class="fa fa-mug-hot"></i> Types of Coffee Beans and How They Taste <span>&#8250;</span></a></li>
+    <li><a href="#"><i class="fa fa-mug-hot"></i> Brewing Methods for the Perfect Coffee <span>&#8250;</span></a></li>
+  </ul>
+            </section>
+            </section>
+
+                <section class="destinations">
+      <h2>Explore Top Coffee Destinations</h2>
+      <p class="subtitle">
+        At Brew Haven, we guide you to the most renowned coffee regions around the world. Each destination offers a unique aroma, culture, and brew worth discovering.
+      </p>
+      <div class="destination-cards">
+        <div class="card">
+          <div class="card-img" style="background-image: url('images/latte/ethio.jpg')">
+            <i class="fa fa-play-circle play-icon"></i>
+          </div>
+          <h3>Ethiopia</h3>
+          <p>Discover the birthplace of coffee with fruity, floral flavors from high-altitude farms and traditional roasting rituals.</p>
+        </div>
+        <div class="card">
+          <div class="card-img" style="background-image: url('images/latte/colo.png')">
+            <i class="fa fa-play-circle play-icon"></i>
+          </div>
+          <h3>Colombia</h3>
+          <p>Explore lush mountains and smooth, balanced brews grown by passionate smallholder farmers.</p>
+        </div>
+        <div class="card">
+          <div class="card-img" style="background-image: url('images/latte/brazil.webp')">
+            <i class="fa fa-play-circle play-icon"></i>
+          </div>
+          <h3>Brazil</h3>
+          <p>Experience bold and chocolatey beans from the world’s largest coffee producer, known for its sun-dried process.</p>
+        </div>
+      </div>
+                </section>
+    </div>
+</div>
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-container">
+      <div class="footer-column">
+        <h4>Not Sure Where to Sip?</h4>
+        <ul>
+          <li><a href="#">Cafés in Florida</a></li>
+          <li><a href="#">Coffee in California</a></li>
+          <li><a href="#">Breweries in New York</a></li>
+          <li><a href="#">Roasters in Texas</a></li>
+          <li><a href="#">Desert Brews in Arizona</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h4>Popular Experiences</h4>
+        <ul>
+          <li><a href="#">Artisan Coffee Tours</a></li>
+          <li><a href="#">Latte Art Classes</a></li>
+          <li><a href="#">Coffee & Wellness Retreats</a></li>
+          <li><a href="#">Sustainable Bean Collectives</a></li>
+          <li><a href="#">Pet-Friendly Cafés</a></li>
+          <li><a href="#">Mobile Coffee Vans</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h4>Top Brew Styles</h4>
+        <ul>
+          <li><a href="#">Cold Brew Culture</a></li>
+          <li><a href="#">Espresso Masters</a></li>
+          <li><a href="#">Pour Over Techniques</a></li>
+          <li><a href="#">Drip Brew Delights</a></li>
+          <li><a href="#">Nitro Coffee Taps</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h4>For Coffee Pros</h4>
+        <ul>
+          <li><a href="#">List Your Café</a></li>
+          <li><a href="#">Marketing With Brew Haven</a></li>
+          <li><a href="#">Our Story</a></li>
+          <li><a href="#">Contact Brew Haven</a></li>
+        </ul>
+        <div class="social-icons">
+          <a href="#"><i class="fas fa-envelope"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="footer-logo">
+        <div class="main-logo"><img src="images/logo-brewhaven.png" alt=""></div> Brew Haven
+      </div>
+      <div class="footer-links">
+        © 2021–2025 
+        <a href="#">Brew Haven Co.</a> <a href="#"> · </a> 
+        <a href="#">Careers</a>  <a href="#"> · </a>
+        <a href="#">News</a> <a href="#"> · </a>
+        <a href="#">Privacy Policy</a>  <a href="#"> · </a>
+        <a href="#">Cookies</a>
+      </div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
+
+
+                  
+                    
+                 
+
